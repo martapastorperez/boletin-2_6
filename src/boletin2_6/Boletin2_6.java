@@ -11,7 +11,7 @@ public class Boletin2_6 {
         float prezoTarifa, prezoPagado, porcentaxeDescontada;
         prezoTarifa= Float.parseFloat(JOptionPane.showInputDialog("prezoTarifa"));
         prezoPagado= Float.parseFloat(JOptionPane.showInputDialog("prezoPagado"));
-        porcentaxeDescontada=100*prezoTarifa-prezoPagado/prezoTarifa;
+        porcentaxeDescontada=100*(prezoTarifa-prezoPagado)/prezoTarifa;
         JOptionPane.showMessageDialog(null,"A porcentaxe descontada=" +porcentaxeDescontada);
     }
     
